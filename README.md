@@ -1,6 +1,6 @@
 
 ## DESCRIPTION:
-- A Trivia / quiz app, made with React.
+- A Responsive website, made with React.
 - [Youtube Video of the App](https://)
 
 ## OUTCOME:
