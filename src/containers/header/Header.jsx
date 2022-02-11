@@ -23,13 +23,12 @@ const Header = () => {
                     <img src={people} alt="people" />
                     <p>1325 Students have registered this year.</p>
                 </div>
-                <div className="header-image">
-                    <img
-                        className="header-image__img"
-                        src="https://images.pexels.com/photos/6146970/pexels-photo-6146970.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                        alt="people learning to code"
-                    />
-                </div>
+            </div>
+            <div className="header-image">
+                <img
+                    src="https://images.pexels.com/photos/6146970/pexels-photo-6146970.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="people learning to code"
+                />
             </div>
         </div>
     );
