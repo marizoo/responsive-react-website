@@ -1,10 +1,19 @@
-import React from 'react'
-import './featureStyle.css'
+import React from "react";
+import "./featureStyle.css";
 
-const Feature = () => {
-  return (
-    <div>Feature</div>
-  )
-}
+const Feature = ({ title, text }) => {
+    return (
+        <div className="features-container__feature">
+            <div className="features-container__feature-title">
+                <div className="top-line"></div>
 
-export default Feature
+                <h1>{title}</h1>
+            </div>
+            <div className="features-container__feature-text">
+                <p>{text}</p>
+            </div>
+        </div>
+    );
+};
+
+export default Feature;

@@ -4,7 +4,7 @@ import {
     Blog,
     Possibility,
     Features,
-    What,
+    About,
     Header,
 } from "./containers";
 import { CTA, Brand, Navbar } from "./components";
@@ -18,7 +18,7 @@ const App = () => {
                 <Header />
             </div>
             <Brand />
-            <What />
+            <About />
             <Features />
             <Possibility />
             <CTA />
