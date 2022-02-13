@@ -28,7 +28,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navbar__links">
-                <span className="navbar__links_logo">LOGO</span>
+                <span className="navbar__links_logo">COODER</span>
                 <div className="navbar__links_container">
                     <Menu />
                 </div>
